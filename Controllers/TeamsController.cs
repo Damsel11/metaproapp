@@ -89,5 +89,6 @@ namespace metaproapp.Controllers
             return BadRequest(new ApiResponse {message = response.message, errors = "failed to delete teams"});
         }
 
+        //text
     }
 }
